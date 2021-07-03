@@ -1,0 +1,99 @@
+* {
+  list-style-type: none;
+}
+/* Scrolling property */
+html {
+  scroll-behavior: smooth;
+}
+/* Navigation */
+.navbar {
+  position: fixed;
+  z-index: 9999;
+}
+#navbarSupportedContent {
+  padding-left: 60rem;
+}
+.nav-item {
+  padding: 0rem 1rem;
+}
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url(../images/hero.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    text-align: center;
+  }
+  .jumboCopy h1 {
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+  }
+  .jumboCopy p {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  /* main section */
+  .sectionrow {
+    height: 70vh;
+    margin-top: -5vh;
+  }
+  .vrtnav {
+    padding: 0%;
+    border-right: 1px solid rgb(194, 195, 202);
+  } 
+  .subnav {
+    padding: 0%;
+  }
+  .subnav-item {
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .mainsector {
+    height: 60vh;
+  }
+  .mainsector h1 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+  .mainsector p {
+    width: 50vw;
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+  /* footer */
+  footer {
+    height: 30vh;
+    background-color: #e9ecef;
+  }
+  #footerrow {
+    padding-top: 4rem;
+  }
+  .footertitle {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* tips page */
+  .cards {
+    padding-top: 2rem;
+    justify-content: space-evenly;
+  }
+  .card-body p {
+    width: 16rem;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+  .card-body {
+    padding-left: -1rem;
+  }
