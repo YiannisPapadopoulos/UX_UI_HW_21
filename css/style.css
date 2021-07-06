@@ -7,14 +7,18 @@ html {
 }
 /* Navigation */
 .navbar {
+  width: 100%;
   position: fixed;
   z-index: 9999;
 }
 #navbarSupportedContent {
-  padding-left: 60rem;
+  padding-left: 50rem;
 }
 .nav-item {
   padding: 0rem 1rem;
+}
+.navbar-btn {
+  border: 1px solid grey;
 }
   /* Jumbotron */
   .jumbotron {
